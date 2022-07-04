@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# reader
+독서량 체크 웹사이트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [설치 및 실행](#설치-및-실행)
+- [설계](#설계)
+- [기능](#기능)
+- [구현](#구현)
+- [트러블 슈팅](#트러블-슈팅)
 
-## Available Scripts
 
-In the project directory, you can run:
+## 설치 및 실행
 
-### `npm start`
+TBD
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 설계
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 목표
+- `React` 와 `TypeScript`를 사용하여 개발하기 
 
-### `npm test`
+### 사용
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| -             | Link                                                            |
+|---------------|-----------------------------------------------------------------|
+| Lang          | [TypeScript](https://www.typescriptlang.org/)                          |
+| Web Framework | [React](https://reactjs.org/)                                     |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 레이아웃
+- Main 페이지
+  헤더, 읽고 있는 책과 읽은 책들을 리스트로 보여줌
+![](/docs/layout1.jpg)
+- 책 정보 페이지
+![](/docs/layout2.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 기능
 
-### `npm run eject`
+TBD
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 구현
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+TBD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 트러블 슈팅
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+TBD
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 참고 소스
+TBD
