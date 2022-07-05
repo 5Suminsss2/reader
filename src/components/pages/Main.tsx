@@ -1,4 +1,4 @@
-import Header from '../utils/Header';
+import Header from '../../shared/Header';
 import styles from "./Main.module.css";
 import imagA from '../../docs/layout1.jpg';
 
