@@ -1,0 +1,96 @@
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 11;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.modalClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 12;
+}
+
+.modalClose:hover {
+    transform: scale(1.2);
+}
+
+.modalInput {
+    height: 50px;
+    margin: 10px 0;
+    border: 3px solid #63a371;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.imageInput {
+    font-size: 13px;
+}
+
+.bookImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 450px;
+}
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+
+}
+
+.bookcover>img {
+    width: 280px;
+    height: 320px;
+    margin-left: 40px;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.saveButton {
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+    margin: 10px 30px;
+    background-color: #63a371;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.saveButton:hover {
+    border: 3px solid #6963a3;
+    background-color: #6963a3;
+}
