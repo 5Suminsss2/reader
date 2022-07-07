@@ -27,50 +27,35 @@ function Main() {
                 <div className={styles.addBook}>
                     <button onClick={openModal}>추가</button>
                 </div>
-                <Link to="./detail">
-                    <div className={styles.bookInfo}>
-                        <img src={imagA} alt="책 표지" />
-                        <div className={styles.title}>책 제목</div>
-                        <div className={styles.graph}>달성 그래프</div>
-                    </div>
+
+                <Link to="./detail" className={styles.bookInfo}>
+                    <img src={imagA} alt="책 표지" />
+                    <div className={styles.title}>책 제목</div>
+                    <div className={styles.graph}>달성 그래프</div>
                 </Link>
-                <Link to="./detail">
-                    <div className={styles.bookInfo}>
-                        <img src={imagA} alt="책 표지" />
-                        <div className={styles.title}>책 제목</div>
-                        <div className={styles.graph}>달성 그래프</div>
-                    </div>
+                <Link to="./detail" className={styles.bookInfo}>
+                    <img src={imagA} alt="책 표지" />
+                    <div className={styles.title}>책 제목</div>
+                    <div className={styles.graph}>달성 그래프</div>
                 </Link>
-                <Link to="./detail">
-                    <div className={styles.bookInfo}>
-                        <img src={imagA} alt="책 표지" />
-                        <div className={styles.title}>책 제목</div>
-                        <div className={styles.graph}>달성 그래프</div>
-                    </div>
+                <Link to="./detail" className={styles.bookInfo}>
+                    <img src={imagA} alt="책 표지" />
+                    <div className={styles.title}>책 제목</div>
+                    <div className={styles.graph}>달성 그래프</div>
                 </Link>
-                <div className={styles.bookInfo}>
+                <Link to="./detail" className={styles.bookInfo}>
                     <img src={imagA} alt="책 표지" />
                     <div className={styles.title}>책 제목</div>
                     <div className={styles.graph}>달성 그래프</div>
-                </div>
-                <div className={styles.bookInfo}>
+                </Link>
+                <Link to="./detail" className={styles.bookInfo}>
                     <img src={imagA} alt="책 표지" />
                     <div className={styles.title}>책 제목</div>
                     <div className={styles.graph}>달성 그래프</div>
-                </div>
-                <div className={styles.bookInfo}>
-                    <img src={imagA} alt="책 표지" />
-                    <div className={styles.title}>책 제목</div>
-                    <div className={styles.graph}>달성 그래프</div>
-                </div>
-                <div className={styles.bookInfo}>
-                    <img src={imagA} alt="책 표지" />
-                    <div className={styles.title}>책 제목</div>
-                    <div className={styles.graph}>달성 그래프</div>
-                </div>
+                </Link>
             </div>
             <Modal open={open} close={closeModal} />
-        </div>
+        </div >
     )
 }
 
